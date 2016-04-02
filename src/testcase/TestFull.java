@@ -31,11 +31,14 @@ public class TestFull {
 			TestCaseCommon.getDriver().get(TestCaseCommon.URL_BASE + "/");
 	}
 	
+	
+	
   	
 	@After
 	public void tearDown() throws Exception {
 		
 
+		
 		String verificationErrorString = verificationErrors.toString();
 		if (!"".equals(verificationErrorString)) {
 			fail(verificationErrorString);

@@ -28,6 +28,7 @@ public class MenuPage  extends HomePage{
 	
 	
 	public MenuPage()  {
+		
 		System.out.println("ConteudoPesquisa");
 		buttonBusca = TestCaseCommon.getDriver().findElement(By.xpath("(//a[@id='suporteA']/div)[3]"));
 	    buttonBuscarSuporte = TestCaseCommon.getDriver().findElement(By.cssSelector("#buscaA > div"));
